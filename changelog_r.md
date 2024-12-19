@@ -5,9 +5,12 @@ Type: Bleeding Edge
 Device: Motorola G54 5G
 Compiler: LLVM 12.0.5
 Branch: android12-5.10-lts
-Build Number: r1a1
+Build Number: r1a2
 ```
 ## Changelog
+**-r1a2**
+* Set `performance` as the default cpufreq governor to improve boot performance.
+
 **-r1a1**
 * Initial base over `android12-5.10-lts`. (commit SHA: `d4fc80b`, kver: 5.10.230)
 * Compiled with LLVM 12.0.5.
