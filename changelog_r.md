@@ -5,9 +5,13 @@ Type: Bleeding Edge
 Device: Motorola G54 5G
 Compiler: LLVM 12.0.5
 Branch: android12-5.10-lts
-Build Number: r1a2
+Build Number: r1a3
 ```
 ## Changelog
+**-r1a3**
+* Add NL80211_WPA_VERSION_3 enumeration to wlan driver to fix WPA3-SAE on A15 QPR1+ (modules).
+* Backport Sony HID drivers from mainline.
+
 **-r1a2**
 * Set `performance` as the default cpufreq governor to improve boot performance.
 
