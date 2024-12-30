@@ -5,9 +5,14 @@ Type: Bleeding Edge
 Device: Motorola G54 5G
 Compiler: LLVM 12.0.5
 Branch: android12-5.10-lts
-Build Number: r1a3
+Build Number: r1b1
 ```
 ## Changelog
+**-r1b1**
+* AK3: Uncomment vendor_boot install methods.
+* AK3: Use appropriate APIs for vendor_boot install to retain recovery ramdisk.
+* AK3: Update magiskboot to fix generation of garbage boot images.
+
 **-r1a3**
 * Add NL80211_WPA_VERSION_3 enumeration to wlan driver to fix WPA3-SAE on A15 QPR1+ (modules).
 * Backport Sony HID drivers from mainline.
