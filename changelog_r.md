@@ -5,9 +5,15 @@ Type: Bleeding Edge
 Device: Motorola G54 5G
 Compiler: LLVM 12.0.5
 Branch: android12-5.10-lts
-Build Number: r1b2
+Build Number: r1b3
 ```
 ## Changelog
+**-r1b3**
+* Merge `MMI-U1TDS34.94-12-9-10-2` into the kernel.
+* Update connectivity drivers to `MMI-U1TDS34.94-12-9-10-2` a.k.a Android 14 January SPL (modules).
+* Update gpu drivers to `MMI-U1TDS34.94-12-9-10-2` a.k.a Android 14 January SPL (modules).
+* Switch to host cpio and tar binaries as utilising prebuilt binaries shipped by MTK BSP is redundant.
+
 **-r1b2**
 * Implement UVC (DeviceAsWebcam) support in USB drivers.
 
