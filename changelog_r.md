@@ -5,9 +5,19 @@ Type: Bleeding Edge
 Device: Motorola G54 5G
 Compiler: LLVM 12.0.5
 Branch: android12-5.10
-Build Number: r2a1
+Build Number: r2a2
 ```
 ## Changelog
+**-r2a2**
+* Drop NL80211_WPA_VERSION_3 enumeration on wlan driver.
+* Call wlanRemove() after wlanOnAtReset() fails.
+* Add WPA3 support in security types on wlan driver.
+* Support WAPI-SMS4 block cipher when WAPI is supported.
+* Implement fixes for Wi-Fi roaming and miscellanous issues from bogota (Moto G56).
+* Enable Wi-Fi channel 144 for Japan.
+* Implement CVE fixes for GPU from bogota (Moto G56).
+* Implement memory leak fixes for GPU from bogota (Moto G56).
+
 **-r2a1**
 * Initial base over android12-5.10. (commit SHA: 070f0e34d716, kver: 5.10.240)
 * Compiled with LLVM 12.0.5.
