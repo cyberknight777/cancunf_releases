@@ -5,9 +5,13 @@ Type: Bleeding Edge
 Device: Motorola G54 5G
 Compiler: LLVM 12.0.5
 Branch: android12-5.10
-Build Number: r2a2
+Build Number: r2a3
 ```
 ## Changelog
+**-r2a3**
+* Implement CLOSE_RANGE_CLOEXEC flag on close_range() from android13-5.10 to fix an issue where hotspot and tethering doesn't work on Android 16 QPR2.
+* Implement epoll_pwait2() syscall from android13-5.15 to fix a massive logspam on Android 16 QPR2.
+
 **-r2a2**
 * Drop NL80211_WPA_VERSION_3 enumeration on wlan driver.
 * Call wlanRemove() after wlanOnAtReset() fails.
