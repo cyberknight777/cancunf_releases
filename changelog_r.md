@@ -5,9 +5,15 @@ Type: Bleeding Edge
 Device: Motorola G54 5G
 Compiler: LLVM 12.0.5
 Branch: android12-5.10
-Build Number: r2b2
+Build Number: r2b3
 ```
 ## Changelog
+**-r2b3**
+* Implement Samsung Generic I/O Scheduler from Galaxy Z Flip 4.
+* Switch to SSG by default.
+* Disable kyber and bfq I/O schedulers.
+* Forbid init from changing I/O schedulers.
+
 **-r2b2**
 * Backport TEO (Timer-Events Oriented) cpuidle governor from mainline. (as of 6.19.0-rc8)
 * Prioritize TEO over other cpuidle governors.
