@@ -5,9 +5,19 @@ Type: Bleeding Edge
 Device: Motorola G54 5G
 Compiler: LLVM 12.0.5
 Branch: android12-5.10
-Build Number: r2b3
+Build Number: r3a1
 ```
 ## Changelog
+**-r3a1**
+* Drop mmi_relay as it is redundant.
+* Disable RCU priority boosting as it offers a negligible performance improvement with a power cost.
+* Switch loglevel to KERN_EMERG as it is an invalid value.
+* Remove initcall_debug=1 as we are on a production kernel.
+* Remove vmalloc=400M as the vmalloc param is a prehistoric remnant from ARM32.
+* Enable expedited GPs for RCU in kernel instead of from init.rc as it is done at a later booting stage there.
+* Offload RCU callbacks processing to kthreads instead of softirqs for 0-7 cores.
+* Bump kernel log buffer size to 1MB to ensure dmesg is not truncated.
+
 **-r2b3**
 * Implement Samsung Generic I/O Scheduler from Galaxy Z Flip 4.
 * Switch to SSG by default.
