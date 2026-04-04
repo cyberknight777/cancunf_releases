@@ -5,9 +5,16 @@ Type: Bleeding Edge
 Device: Motorola G54 5G
 Compiler: LLVM 12.0.5
 Branch: android12-5.10
-Build Number: r3a1
+Build Number: r3a2
 ```
 ## Changelog
+**-r3a2**
+* Remove duplicate proc_mkdir() invocation in musb driver.
+* Fix duplicate node creation for eara_io in blocktag.
+* Prevent false vbus triggers during musb init.
+* Fix a call trace regarding power supply.
+* Disable more debugging modules.
+
 **-r3a1**
 * Drop mmi_relay as it is redundant.
 * Disable RCU priority boosting as it offers a negligible performance improvement with a power cost.
