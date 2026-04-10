@@ -5,9 +5,12 @@ Type: Bleeding Edge
 Device: Motorola G54 5G
 Compiler: LLVM 12.0.5
 Branch: android12-5.10
-Build Number: r3a2
+Build Number: r3a3
 ```
 ## Changelog
+**-r3a3**
+* Fix potential USB issues caused by incorrect VBUS state handling in musb driver.
+
 **-r3a2**
 * Remove duplicate proc_mkdir() invocation in musb driver.
 * Fix duplicate node creation for eara_io in blocktag.
