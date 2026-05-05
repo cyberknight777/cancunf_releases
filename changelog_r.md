@@ -5,9 +5,18 @@ Type: Bleeding Edge
 Device: Motorola G54 5G
 Compiler: LLVM 12.0.5
 Branch: android12-5.10
-Build Number: r3a3
+Build Number: r3b1
 ```
 ## Changelog
+**-r3b1**
+* Implement optional explicit status stage in the musb driver.
+* Reapply F2FS changes that were mismerged in 5.10.227.
+* Rewrite goodix fingerprint driver for performance.
+* Upstream TEO cpuidle governor to 7.1-rc1.
+* Disable drivers that are unshipped on our platform.
+* Default to LZ4 for zram compression.
+* Increase the delay for GPU poweroff to reduce latency on RenderThread work.
+
 **-r3a3**
 * Fix potential USB issues caused by incorrect VBUS state handling in musb driver.
 
