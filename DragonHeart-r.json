@@ -2,11 +2,11 @@
 {
   "kernel": {
   "name": "DragonHeart",
-  "version": "r3b1",
-  "link": "https://github.com/cyberknight777/cancunf_releases/releases/download/r3b1/DragonHeart-cancunf-r3b1.zip",
+  "version": "r3b2",
+  "link": "https://github.com/cyberknight777/cancunf_releases/releases/download/r3b2/DragonHeart-cancunf-r3b2.zip",
   "changelog_url": "https://raw.githubusercontent.com/cyberknight777/cancunf_releases/master/changelog_r.md",
-  "date": "2026-05-05",
-  "sha1": "6a673e0ee86553ec4dbfb1150f858f66c7fb24b1"
+  "date": "2026-05-20",
+  "sha1": "ded71caf76dc12d06cad4361b1eafa569a0807ec"
   },
   "support": {
     "link": "https://t.me/knightschat"

@@ -5,9 +5,14 @@ Type: Bleeding Edge
 Device: Motorola G54 5G
 Compiler: LLVM 12.0.5
 Branch: android12-5.10
-Build Number: r3b1
+Build Number: r3b2
 ```
 ## Changelog
+**-r3b2**
+* Fix use-after-free in the Goodix fingerprint driver.
+* Invert request_threaded_irq() check in the Goodix fingerprint driver.
+* Implement a GF_IOC_SPIDEVICE_DIS ioctl to deregister spi_driver upon exit in the Goodix fingerprint driver.
+
 **-r3b1**
 * Implement optional explicit status stage in the musb driver.
 * Reapply F2FS changes that were mismerged in 5.10.227.
