@@ -5,9 +5,13 @@ Type: Bleeding Edge
 Device: Motorola G54 5G
 Compiler: LLVM 12.0.5
 Branch: android12-5.10
-Build Number: r3b2
+Build Number: r3b3
 ```
 ## Changelog
+**-r3b3**
+* Update GPU drivers to `MMI-V1TDS35H.83-20-5-11`.
+* Implement thermal pressure accounting in the MediaTek cpufreq-hw driver.
+
 **-r3b2**
 * Fix use-after-free in the Goodix fingerprint driver.
 * Invert request_threaded_irq() check in the Goodix fingerprint driver.
